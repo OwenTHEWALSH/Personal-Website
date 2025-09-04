@@ -1,0 +1,15 @@
+body {
+    background-color: whitesmoke;
+}
+img{
+    width: 250px;
+    margin-left: 500px;
+}
+
+h1 {
+    border: solid 4px;
+    width: 179px;
+    text-align: center;
+    margin: 20px auto; 
+}
+
