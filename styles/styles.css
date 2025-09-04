@@ -1,7 +1,12 @@
 body {
     background-color: black;
 }
-img{
+#Insta{
+    scale: 25%;
+    margin: auto;
+    
+}
+#Owen{
     width: 250px;
     margin-left: 500px;
     border-style: solid;
@@ -11,7 +16,7 @@ img{
     
 }
 
-h1 {
+#MainHead {
     color: white;
     border: solid 4px;
     width: 179px;
@@ -19,4 +24,11 @@ h1 {
     margin: 20px auto; 
     box-shadow: 5px 5px 52px 10px  white;
 }
+#Socials{
+    color: white;
+    margin-top: 1px;
+}
 
+a{
+    color: skyblue;
+}
