@@ -1,7 +1,6 @@
-body {
+body{
     background-color: black;
-    height: 1080px;
-    width: 1920px;
+    overflow: hidden;
 }
 
 #Insta {
@@ -37,7 +36,7 @@ body {
     width: 50px;
 }
 
-a {
+#ig{
     color: skyblue;
     margin-left: -5px;
     margin-top: 10px;
@@ -79,12 +78,12 @@ a {
 #Current {
     height: 650px;
     width: 450px;
-    margin-top: 30em;
+    margin-top: 23.5em;
 }
 
 #ICWO {
     color: white;
-    margin-top: -2.9em;
+    margin-top: -3em;
 }
 
 #CWOI {
@@ -97,22 +96,20 @@ a {
 }
 
 #YouTube {
-    margin-left: 22em;
-    margin-top: -46em;
+    margin-top: -57em;
     width: 15em;
     height: 35px;
+    display: flex;
 }
 
 #YT {
     color: skyblue;
-    margin-right: 60em;
-    margin-top: 50px;
     width: 1px;
     height: auto;
+    margin-top: 5px;
 }
 
 #YTlogo {
     height: 95%;
     width: 20%;
-    margin-right: 3em;
 }
