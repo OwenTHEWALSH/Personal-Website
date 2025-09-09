@@ -3,21 +3,26 @@ body {
     overflow: hidden;
     margin: 0;
 }
-#black-bar{
-    width: 500em;
+
+.Socials {
+    display: flex;
+    gap: 2px;
+}
+
+#black-bar {
     box-shadow: 5px 5px 52px 10px;
     border-color: black;
-    border-width: 2em;
-    border-style:solid;
+    border-width: 2.5em;
+    border-style: solid;
     border-top-width: 0px;
     border-right-width: 0px;
     border-left-width: 0px;
 }
+
 #Insta {
-    scale: 100%;
-    margin: 10px;
-    margin-top: 5px;
-    margin-left: -0.1em;
+    scale: 30%;
+    margin-top: -55px;
+    margin-left: -3.5em;
 
 }
 
@@ -46,12 +51,6 @@ body {
     width: 50px;
 }
 
-#ig {
-    color: skyblue;
-    margin-left: -5px;
-    margin-top: 10px;
-}
-
 #instagram {
     display: flex;
     width: 100px;
@@ -70,25 +69,16 @@ body {
     margin-top: -210px;
 }
 
-#email {
-    color: white;
-    font-size: small;
-    margin-top: 5px;
-    margin-left: 40px;
-    width: 199px;
-    height: 2px;
-}
-
 #gmail-logo {
     scale: 30%;
-    margin-left: -80.5px;
-    margin-top: -4.8em;
+    margin-left: -80px;
+    margin-top: -4em;
 }
 
 #Current {
-    height: 650px;
+    height: 300px;
     width: 450px;
-    margin-top: 23.5em;
+    margin-top: 22.5em;
 }
 
 #ICWO {
@@ -106,10 +96,9 @@ body {
 }
 
 #YouTube {
-    margin-top: -57em;
-    width: 15em;
+    width: 200px;
     height: 35px;
-    display: flex;
+    margin-top: -34.5em;
 }
 
 #YT {
@@ -121,5 +110,5 @@ body {
 
 #YTlogo {
     height: 95%;
-    width: 20%;
+    width: 40px;
 }
