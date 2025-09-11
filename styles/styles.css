@@ -2,11 +2,28 @@ body {
     background-color: rgb(49, 49, 49);
     overflow: hidden;
     margin: 0;
+    position: relative;
 }
 
-.Socials {
-    display: flex;
-    gap: 2px;
+header {
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 1em;
+}
+
+nav {
+    width: 70px;
+    height: 60em;
+    margin-top: -23em;
+    background-color: black;
+    margin-bottom: 0;
+    box-shadow: 5px 5px 52px 10px;
+}
+
+aside {
+    width: 376px;
+    height: 500px;
+    margin-top: 9em;
 }
 
 #black-bar {
@@ -17,13 +34,7 @@ body {
     border-top-width: 0px;
     border-right-width: 0px;
     border-left-width: 0px;
-}
-
-#Insta {
-    scale: 30%;
-    margin-top: -55px;
-    margin-left: -3.5em;
-
+    margin-bottom: 0;
 }
 
 #Owen {
@@ -47,7 +58,7 @@ body {
 
 #Socials {
     color: white;
-    margin-top: 1px;
+    margin-top: -10em;
     width: 50px;
 }
 
@@ -57,28 +68,9 @@ body {
     height: 50px;
 }
 
-#Npillr {
-    width: 100px;
-    margin-left: 45%;
-    margin-top: -6%;
-}
-
-#contactemail {
-    width: 20%;
-    height: 2%;
-    margin-top: -210px;
-}
-
-#gmail-logo {
-    scale: 30%;
-    margin-left: -80px;
-    margin-top: -4em;
-}
-
-#Current {
-    height: 300px;
-    width: 450px;
-    margin-top: 22.5em;
+#link {
+    width: 12px;
+    height: min-content;
 }
 
 #ICWO {
@@ -95,21 +87,21 @@ body {
     box-shadow: 5px 6px 52px 10px rgb(141, 141, 141);
 }
 
-#YouTube {
-    width: 200px;
-    height: 35px;
-    margin-top: -34.5em;
+.logo {
+    width: 50px;
+    height: 50px;
 }
 
-#YT {
-    color: skyblue;
-    width: 1px;
-    height: auto;
-    margin-top: 5px;
+#gmail-logo {
+    width: 75px;
+    height: 75px;
+    margin-left: -10px;
 }
 
-#YTlogo {
-    height: 95%;
-    width: 40px;
-    margin
+#adam {
+    display: flex;
 }
+
+#container-1 {}
+
+#container-2 {}
