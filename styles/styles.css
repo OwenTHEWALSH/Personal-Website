@@ -10,13 +10,7 @@ header {
     margin-left: 45%;
     margin-top: 1em;
 }
-main{
-    margin-left: 25em;
-    margin-top: -20em;
-    background-color: white;
-    width: 250px;
-    height: 250px;
-}
+
 nav {
     width: 70px;
     height: 60em;
@@ -26,21 +20,24 @@ nav {
     box-shadow: 5px 5px 52px 10px;
 }
 
-aside {
+#CWO {
     width: 376px;
     height: 500px;
     margin-top: 9em;
     margin-left: -570px;
 }
-footer{
+
+footer {
+    transition: 2s;
     background-color: black;
     margin-top: -4.9em;
     box-shadow: 5px 5px 52px 10px;
-      border-style: solid;
+    border-style: solid;
     border-width: 5px;
     border-color: black;
 
 }
+
 #black-bar {
     box-shadow: 5px 5px 52px 10px;
     border-color: black;
@@ -116,12 +113,56 @@ footer{
 #adam {
     display: flex;
 }
-#lonk{
+
+#lonk {
     text-align: center;
     margin-left: 925px;
     box-shadow: 5px 5px 52px 10px;
     color: white;
 }
+
 #container-1 {}
 
 #container-2 {}
+
+footer:hover {
+    transition: 2s;
+    color: red;
+}
+
+#lonk:hover {
+    transition: 2s;
+    color: red;
+}
+
+#CWO {
+    margin-left: -25;
+}
+
+#ZHP {
+    margin-left: 0px;
+    margin-top: -875px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    flex-grow: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(141, 141, 141);
+    box-shadow: 5px 6px 52px 10px rgb(141, 141, 141);
+
+}
+
+h3 {
+    height: 10px;
+    margin-top: -0px;
+}
+
+#AFM {
+    flex: auto;
+    width: 250px;
+    height: 210px;
+    border-width: 0px;
+    margin-top: 11.5px;
+
+}
