@@ -1,42 +1,49 @@
 html,
 body {
     background-color: rgb(49, 49, 49);
-    overflow: hidden;
+    display: flex;
     margin: 0;
     position: relative;
+    flex-direction: column;
 }
-
+::-webkit-scrollbar { /*Hides Scrollbar but keeps function*/
+    display: none;
+}
 header {
     width: 100px;
     margin-left: 45%;
     margin-top: 1em;
 }
 
+main {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
 nav {
-    width: 70px;
-    height: 60em;
+    display: flex;
+    flex-direction:  column;
+    width: 3.7vw;
+    height: 96vh;
     margin-top: -23em;
     background-color: black;
-    margin-bottom: 0;
     box-shadow: 5px 5px 52px 10px;
 }
 
 #CWO {
     width: 376px;
     height: 500px;
-    margin-top: 9em;
-    margin-left: -570px;
 }
 
 footer {
-    transition: 2s;
+    margin: 0;
+    width: 100vw;
     background-color: black;
-    margin-top: -4.9em;
     box-shadow: 5px 5px 52px 10px;
     border-style: solid;
     border-width: 5px;
     border-color: black;
-
 }
 
 #black-bar {
@@ -52,7 +59,7 @@ footer {
 
 #Owen {
     width: 250px;
-    margin-left: -35px;
+    justify-content: center;
     margin-top: -10px;
     border-style: solid;
     border-width: 5px;
@@ -62,6 +69,7 @@ footer {
 }
 
 #MainHead {
+    margin-left: 1em;
     color: white;
     border: solid 4px;
     width: 179px;
@@ -71,7 +79,6 @@ footer {
 
 #Socials {
     color: white;
-    margin-top: -10em;
     width: 50px;
 }
 
@@ -89,11 +96,12 @@ footer {
 #ICWO {
     color: white;
     margin-top: -3em;
+    font-size: 1.3rem;
 }
 
 #CWOI {
-    width: 23em;
-    height: 25.55em;
+    width: 250px;
+    height: 250px;
     border-style: solid;
     border-width: 5px;
     border-color: rgb(141, 141, 141);
@@ -101,8 +109,8 @@ footer {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
 }
 
 #gmail-logo {
@@ -111,22 +119,29 @@ footer {
     margin-left: -10px;
 }
 
-#adam {
-    display: flex;
-}
 
 #lonk {
+    justify-content: center;
     text-align: center;
     margin-left: 925px;
     box-shadow: 5px 5px 52px 10px;
     color: white;
 }
 
-#container-1 {}
-
-#container-2 {
+#container-1 {
+    width: 100vw;
+    height: fit-content;
+    margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+#container-2 {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 footer:hover {
@@ -140,11 +155,11 @@ footer:hover {
 }
 
 #CWO {
-    margin-left: -25;
+    width: 250px;
+    height: 250px;
 }
 
 #ZHP {
-    
     background-color: white;
     width: 250px;
     height: 250px;
@@ -169,7 +184,8 @@ h3 {
     margin-top: 11.5px;
 
 }
-#Lessons{   
+
+#Lessons {
     align-items: flex-start;
     text-align: center;
     margin: 0;
@@ -181,6 +197,13 @@ h3 {
     border-color: rgb(141, 141, 141);
     box-shadow: 5px 6px 52px 10px rgb(141, 141, 141)
 }
-#MbL{
+
+.projects {
+    margin-top: 10em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#MbL {
     width: 240px;
 }
