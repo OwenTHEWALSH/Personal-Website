@@ -139,10 +139,7 @@ nav {
     flex-direction: row;
 }
 
-footer:hover {
-    transition: 2s;
-    color: red;
-}
+
 
 #lonk:hover {
     transition: 2s;
