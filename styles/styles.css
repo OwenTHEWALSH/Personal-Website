@@ -1,18 +1,23 @@
 html,
 body {
     background-color: rgb(49, 49, 49);
+
     display: flex;
     margin: 0;
     position: relative;
     flex-direction: column;
 }
-::-webkit-scrollbar { /*Hides Scrollbar but keeps function*/
+
+::-webkit-scrollbar {
+    /*Hides Scrollbar but keeps function*/
     display: none;
 }
+
 header {
     width: 100px;
     margin-left: 45%;
     margin-top: 1em;
+
 }
 
 main {
@@ -23,9 +28,9 @@ main {
 
 nav {
     display: flex;
-    flex-direction:  column;
-    width: 3.7vw;
-    height: 96vh;
+    flex-direction: column;
+    width: 4vw;
+    height: 100vh;
     margin-top: -23em;
     background-color: black;
     box-shadow: 5px 5px 52px 10px;
@@ -36,17 +41,9 @@ nav {
     height: 500px;
 }
 
-footer {
-    margin: 0;
-    width: 100vw;
-    background-color: black;
-    box-shadow: 5px 5px 52px 10px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-}
 
 #black-bar {
+
     box-shadow: 5px 5px 52px 10px;
     border-color: black;
     border-width: 2.5em;
@@ -54,7 +51,6 @@ footer {
     border-top-width: 0px;
     border-right-width: 0px;
     border-left-width: 0px;
-    margin-bottom: 0;
 }
 
 #Owen {
@@ -121,15 +117,14 @@ footer {
 
 
 #lonk {
-    justify-content: center;
-    text-align: center;
-    margin-left: 925px;
-    box-shadow: 5px 5px 52px 10px;
     color: white;
+    background-color: black;
+    padding: 0vw 100vw;
+
 }
 
 #container-1 {
-    width: 100vw;
+    width: 96vw;
     height: fit-content;
     margin: 0;
     display: flex;
@@ -188,7 +183,6 @@ h3 {
 #Lessons {
     align-items: flex-start;
     text-align: center;
-    margin: 0;
     background-color: white;
     width: 250px;
     height: 225px;
@@ -199,11 +193,23 @@ h3 {
 }
 
 .projects {
-    margin-top: 10em;
-    align-items: center;
-    justify-content: space-between;
+    margin-left: 15em;
 }
 
 #MbL {
     width: 240px;
+}
+
+#black-bar-R {
+    margin: 0;
+    width: 4vw;
+    height: 200vh;
+    background-color: black;
+    display: flex;
+    box-shadow: 5px 5px 52px 10px;
+}
+
+#MegaCon {
+
+    grid-template-columns: 4vw 1fr 4vw;
 }
